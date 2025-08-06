@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ku 的健康日記</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Ku 的健康日記</h1>
+  <form id="entry-form">
+    <label>體重 (kg)：<input type="number" step="0.1" id="weight" /></label><br />
+    <label>早餐：<input type="text" id="breakfast" /></label><br />
+    <label>午餐：<input type="text" id="lunch" /></label><br />
+    <label>晚餐：<input type="text" id="dinner" /></label><br />
+    <label>點心：<input type="text" id="snacks" /></label><br />
+    <label>上傳飲食照片：<input type="file" id="foodPhotos" multiple /></label><br />
+    <label>運動內容：<input type="text" id="exercise" /></label><br />
+    <label>上傳運動照片：<input type="file" id="exercisePhotos" multiple /></label><br />
+    <label>備註：<textarea id="notes"></textarea></label><br />
+    <button type="submit">儲存日記</button>
+  </form>
+  <p id="result"></p>
+  <script src="script.js"></script>
+</body>
+</html>
